@@ -42,6 +42,15 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "manga": {
+        "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color), {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 768,
+        "height": 1344,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
     "embroidery": {
         "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic, {np}",
         "model": "SDXL_beta::stability.ai#6901",
