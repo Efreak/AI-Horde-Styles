@@ -24,6 +24,48 @@
         "steps": 43,
         "cfg_scale": 8.5
     },
+    "ar-vertical": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 768,
+        "height": 1344,
+        "steps": 50
+    },
+    "ar-portrait": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 896,
+        "height": 1152,
+        "steps": 50
+    },
+    "ar-photo": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1152,
+        "height": 896,
+        "steps": 50
+    },
+    "ar-landscape": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1280,
+        "height": 832,
+        "steps": 50
+    },
+    "ar-widescreen": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1344,
+        "height": 768,
+        "steps": 50
+    },
+    "ar-cinematic": {
+        "prompt": "{p}{np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "width": 1536,
+        "height": 640,
+        "steps": 50
+    },
     "sdxlcatgirlportrait": {
         "prompt": "high quality, intricate, fluffy tail, cat ears, a full-body portrait of a catgirl, {p}, photorealistic, magical realism, fantasy###{np}, (Drawing cartoon comic sketch 2d render:0.7)",
         "model": "SDXL_beta::stability.ai#6901",

@@ -294,6 +294,14 @@
         "papercutcraft",
         "papercut"
     ],
+    "sdxl-aspect-ratio": [
+        "ar-vertical",
+        "ar-portrait",
+        "ar-photo",
+        "ar-landscape",
+        "ar-widescreen",
+        "ar-cinematic"
+    ],
     "mediums": [
         "watercolorscenery",
         "pencilscribbles",
