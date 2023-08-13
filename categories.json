@@ -300,12 +300,19 @@
         "embroidery",
         "manga",
         "anime",
+        "vaporwave",
+        "claymation",
+        "origami",
         "goldenagecomics",
         "sovietpropaganda"
     ],
     "stylish": [
         "sdxlcatgirlportrait",
         "sdxlchibis",
+        "isometric",
+        "lowpoly",
+        "lineart",
+        "pixelart",
         "sdxlstreetfashion"
     ]
 }

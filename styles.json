@@ -69,6 +69,69 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "vaporwave": {
+        "prompt": "vaporwave synthwave style {p}, cyberpunk, neon, vibes, stunningly beautiful, crisp, detailed, sleek, ultramodern, high contrast, cinematic composition###illustration, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1344,
+        "height": 768,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "isometric": {
+        "prompt": "isometric style {p}, vibrant, beautiful, crisp, detailed, ultra detailed, intricate###deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "lowpoly": {
+        "prompt": "low-poly style {p}, ambient occlusion, low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1344,
+        "height": 768,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "claymation": {
+        "prompt": "claymation style {p}, sculpture, clay art, centered composition, play-doh###{np}, sloppy, messy, grainy, highly detailed, ultra textured, photo, mutated",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1280,
+        "height": 832,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "origami": {
+        "prompt": "origami style {p}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition###noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "lineart": {
+        "prompt": "line art drawing, {p}, professional, sleek, modern, minimalist, graphic, line art, vector graphics###{np}, anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1152,
+        "height": 896,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
+    "pixelart": {
+        "prompt": "pixel-art, {p}, low-res, blocky, pixel art style, 16-bit graphics###sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1280,
+        "height": 832,
+        "steps": 50,
+        "cfg_scale": 8.5
+    },
     "embroidery": {
         "prompt": "(Embroidery) knitting pattern of {p}, (cross stitch)###photorealistic, {np}",
         "model": "SDXL_beta::stability.ai#6901",
