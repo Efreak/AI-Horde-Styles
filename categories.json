@@ -2,7 +2,8 @@
     "new": [
         "mediums",
         "stylish",
-        "glitch"
+        "glitch",
+        "artstyles"
     ],
     "featured": [
         "sdxl"
@@ -298,21 +299,23 @@
         "pencilscribbles",
         "broadsheetart",
         "embroidery",
-        "manga",
-        "anime",
-        "vaporwave",
         "claymation",
-        "origami",
+        "origami"
+    ],
+    "artstyles": [
+        "sdxlanime",
+        "isometric",
+        "manga",
+        "lowpoly",
+        "pixelart",
+        "vaporwave",
         "goldenagecomics",
-        "sovietpropaganda"
+        "sovietpropaganda",
+        "lineart"
     ],
     "stylish": [
         "sdxlcatgirlportrait",
         "sdxlchibis",
-        "isometric",
-        "lowpoly",
-        "lineart",
-        "pixelart",
         "sdxlstreetfashion"
     ]
 }
