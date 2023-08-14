@@ -309,10 +309,10 @@
         "prompt": "antique broadsheet drawing, {p}, text, monotone###{np}, colorful",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
-        "width": 1024,
-        "height": 1024,
+        "width": 896,
+        "height": 1152,
         "steps": 50,
-        "cfg_scale": 8.5
+        "cfg_scale": 6
     },
     "watercolorscenery": {
         "prompt": "watercolor painting of {p}, broad brush strokes, soft colors###photorealistic, 3d, {np}",
