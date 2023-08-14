@@ -166,13 +166,12 @@
         "cfg_scale": 7
     },
     "goldenagecomics": {
-        "prompt": "(1940s golden age comics) style screen print, {np}, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color, {np}",
+        "prompt": "{np}, 1940s golden age comics style screen print, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color, {np}",
         "model": "SDXL_beta::stability.ai#6901",
-        "sampler_name": "k_dpmpp_sde",
-        "width": 768,
-        "height": 1344,
+        "width": 832,
+        "height": 1280,
         "steps": 50,
-        "cfg_scale": 8.5
+        "cfg_scale": 6
     },
     "newmanga": {
         "prompt": "(manga, heavy outlines, thick linework, monochrome, flat, black and white:1.2), {p}###(3d, color), {np}",
