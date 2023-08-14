@@ -319,9 +319,15 @@
         "vaporwave",
         "goldenagecomics",
         "sovietpropaganda",
+        "portraitphoto",
+        "schematic",
         "lineart"
     ],
     "stylish": [
+        "space",
+        "building",
+        "animal",
+        "futurefashion",
         "sdxlcatgirlportrait",
         "sdxlchibis",
         "sdxlstreetfashion"
