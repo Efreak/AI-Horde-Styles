@@ -84,6 +84,78 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "tarotcard": {
+        "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, {p}###photorealistic, cute, modern, simple, amime, plain, vector, lowres, cropped, limneart, cgi, 3d, {np}",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 768,
+        "height": 1344,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "playingcard": {
+        "prompt": "A modern playing card, {p}###{np}, photorealistic, cute, lowres, cropped, cgi, 3d, pixelated",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 832,
+        "height": 1280,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "mtgcard": {
+        "prompt": "A mtg magic the gathering card, painting of fantasy creature. description, {p}, mtg magic the gathering style###{np}, lowres, cropped, cgi, pixelated, photorealistic, 3d render",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 832,
+        "height": 1152,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "pokemoncard": {
+        "prompt": "A pokemon trading card, {p}###{np}, lowres, cropped, cgi",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 832,
+        "height": 1152,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "baseballcard": {
+        "prompt": "A baseball trading card, picture of player, stats in corner, {p}###{np}, lowres, cropped, cgi, pixelated, cute",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 832,
+        "height": 1152,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "greetingcard": {
+        "prompt": "A greeting card, {p}###{np}, lowres, cropped, cgi, pixelated",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 832,
+        "height": 1280,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "postcard": {
+        "prompt": "A souvenir postcard, {p}###{np}, lowres, cropped, cgi, pixelated, padding, border",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1280,
+        "height": 832,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "businesscard": {
+        "prompt": "A modern business card, {p}###{np}, cute, lowres, cropped, cgi, pixelated",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_dpmpp_sde",
+        "width": 1280,
+        "height": 832,
+        "steps": 50,
+        "cfg_scale": 7
+    },
     "goldenagecomics": {
         "prompt": "(1940s golden age comics) style screen print, {np}, cover art by CC Beck and Will Eisner, (thick lines:0.7), early CMYK lithography, halftones###3d, modern, black and white, spot color, {np}",
         "model": "SDXL_beta::stability.ai#6901",

@@ -323,6 +323,16 @@
         "schematic",
         "lineart"
     ],
+    "cards": [
+        "playingcard",
+        "mtgcard",
+        "pokemoncard",
+        "baseballcard",
+        "greetingcard",
+        "postcard",
+        "businesscard",
+        "tarotcard"
+    ],
     "stylish": [
         "space",
         "building",
