@@ -368,7 +368,7 @@
         "cfg_scale": 7
     },
     "newdisney": {
-        "prompt": "(cute), {p}, (animated by disney)###{np}, horror, ugly, photorealistic",
+        "prompt": "(cute), {p}, (classic disney animation)###{np}, 3d, horror, ugly, photorealistic",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_euler",
         "width": 1152,
@@ -377,7 +377,7 @@
         "cfg_scale": 7
     },
     "newpixar": {
-        "prompt": "(cute), {p}, (rendered by pixar)###{np}, horror, ugly, photorealistic, black and white",
+        "prompt": "(cute), {p}, (rendered by pixar)###{np}, 2d, horror, ugly, photorealistic, black and white",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_euler",
         "width": 1152,
