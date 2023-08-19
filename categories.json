@@ -331,7 +331,8 @@
         "greetingcard",
         "postcard",
         "businesscard",
-        "tarotcard"
+        "moderntarotcard",
+        "antiquetarotcard"
     ],
     "stylish": [
         "space",
