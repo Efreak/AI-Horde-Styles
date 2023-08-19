@@ -295,12 +295,12 @@
         "papercut"
     ],
     "sdxl-aspect-ratio": [
-        "ar-vertical",
-        "ar-portrait",
-        "ar-photo",
-        "ar-landscape",
-        "ar-widescreen",
-        "ar-cinematic"
+        "sdxl-vertical",
+        "sdxl-portrait",
+        "sdxl-photo",
+        "sdxl-landscape",
+        "sdxl-widescreen",
+        "sdxl-cinematic"
     ],
     "mediums": [
         "watercolorscenery",
