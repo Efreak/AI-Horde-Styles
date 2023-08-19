@@ -359,6 +359,33 @@
         "steps": 50,
         "cfg_scale": 8.5
     },
+    "animation": {
+        "prompt": "(cute), {p}, (animated by Mike Judge)###{np}, horror, ugly, 3d, photorealistic, black and white",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_euler",
+        "width": 1152,
+        "height": 896,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "disney": {
+        "prompt": "(cute), {p}, (animated by disney)###{np}, horror, ugly, photorealistic",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_euler",
+        "width": 1152,
+        "height": 896,
+        "steps": 50,
+        "cfg_scale": 7
+    },
+    "pixar": {
+        "prompt": "(cute), {p}, (rendered by pixar)###{np}, horror, ugly, photorealistic, black and white",
+        "model": "SDXL_beta::stability.ai#6901",
+        "sampler_name": "k_euler",
+        "width": 1152,
+        "height": 896,
+        "steps": 50,
+        "cfg_scale": 7
+    },
     "glitchart": {
         "prompt": "{p}###{np}, worst quality, low quality:1.4), EasyNegative, bad anatomy, bad hands, cropped, missing fingers, missing toes, too many toes, too many fingers, missing arms, long neck, Humpbacked, deformed, disfigured, poorly drawn face, distorted face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long body, monochrome, symbol, text, logo, door frame, window frame, mirror frame",
         "model": "Dreamshaper",
