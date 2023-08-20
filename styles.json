@@ -100,7 +100,7 @@
         "width": 832,
         "height": 1280,
         "steps": 50,
-        "cfg_scale": 7
+        "cfg_scale": 8
     },
     "newplayingcard": {
         "prompt": "A modern playing card, {p}###{np}, photorealistic, cute, lowres, cropped, cgi, 3d, pixelated",
