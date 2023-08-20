@@ -85,7 +85,7 @@
         "cfg_scale": 8.5
     },
     "newmoderntarotcard": {
-        "prompt": "A modern Tarot card, painted, {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique, {np}",
+        "prompt": "(((A modern Tarot card, painted))), {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, antique, {np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 832,
@@ -94,7 +94,7 @@
         "cfg_scale": 7
     },
     "newantiquetarotcard": {
-        "prompt": "A hand-painted antique 15th century Visconti-Sforza style Trionfi Tarot card, {p}###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, {np}",
+        "prompt": "A hand-painted 15th century Visconti-Sforza style Trionfi Tarot card, antique painting of {p}, with name below, detailed painting###photorealistic, cute, modern, simple, anime, plain, vector, lowres, cropped, limneart, cgi, 3d, {np}",
         "model": "SDXL_beta::stability.ai#6901",
         "sampler_name": "k_dpmpp_sde",
         "width": 832,
