@@ -1,2 +1,0 @@
-horde_sdk
-requests
