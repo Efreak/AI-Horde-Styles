@@ -10,5 +10,16 @@
         "model": "ICBINP XL",
         "hires_fix": true,
         "sampler_name": "k_dpmpp_2m"
+    },
+    "z-image": {
+        "prompt": "{p}{np}",
+        "model": "Z-Image-Turbo",
+        "steps": 9,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 1,
+        "karras": false,
+        "hires_fix": false,
+        "sampler_name": "k_euler"
     }
 }
