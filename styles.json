@@ -22,18 +22,40 @@
         "karras": false,
         "hires_fix": false
     },
-    "sdxl": {
+    "albedo": {
         "prompt": "{p}{np}",
-        "model": "SDXL 1.0",
+        "model": "AlbedoBase XL (SDXL)",
         "sampler_name": "k_euler",
         "cfg_scale": 7,
         "steps": 20,
         "height": 1024,
-        "width": 1024
+        "width": 1024,
+        "hires_fix": true
     },
-    "albedo": {
+    "albedo3.1": {
         "prompt": "{p}{np}",
-        "model": "AlbedoBase XL (SDXL)",
+        "model": "AlbedoBase XL 3.1",
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "steps": 20,
+        "height": 1024,
+        "width": 1024,
+        "hires_fix": true
+    },
+    "quiet goodnight xl": {
+        "prompt": "{p}###{np}",
+        "model": "Quiet Goodnight XL",
+        "sampler_name": "k_dpmpp_2m",
+        "cfg_scale": 7,
+        "steps": 20,
+        "height": 1216,
+        "width": 832,
+        "hires_fix": true
+    },
+
+    "sdxl": {
+        "prompt": "{p}{np}",
+        "model": "SDXL 1.0",
         "sampler_name": "k_euler",
         "cfg_scale": 7,
         "steps": 20,
@@ -720,15 +742,6 @@
         "height": 1024,
         "width": 1024
     },
-    "quiet goodnight xl": {
-        "prompt": "{p}###{np}",
-        "model": "Quiet Goodnight XL",
-        "sampler_name": "k_dpmpp_2m",
-        "cfg_scale": 7,
-        "steps": 20,
-        "height": 1216,
-        "width": 832
-    },
     "swam pony": {
         "prompt": "score_9, score_8_up, score_8, (score_7_up, score_7:0.2), source_real, soure_photography, {p} ### (score_6, score_5, score_4, score_3, score_2, score_1:1.0), source_furry, source_pony, source_cartoon, source_anime, source_filmmmaker, {np}",
         "model": "SwamPonyXL",
@@ -837,14 +850,5 @@
         "height": 1024,
         "width": 1024,
         "loras": [{ "model": 0.85, "clip": 1, "is_version": true, "name": "382409"}]
-    },
-    "albedo3.1": {
-        "prompt": "{p}{np}",
-        "model": "AlbedoBase XL 3.1",
-        "sampler_name": "k_dpmpp_2m",
-        "cfg_scale": 7,
-        "steps": 20,
-        "height": 1024,
-        "width": 1024
     }
 }
